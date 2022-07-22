@@ -1,0 +1,22 @@
+napraviti listu filmova sa nazivom, ocenom, opisom i cenom za gledanje
+kada neko klikne na GledajFilm da se prikaze da je gledao film i da mu pise koliko je potrosio za gledanje tog filma
+i da mu dodaje koliko je potrosio za sve filmove
+
+function dodajGledato(film) {
+    let kupljeni = document.createElement('div');
+    let naslov = document.createElement('h3')
+    let placeno = document.createElement('span');
+    let ukloni = document.createElement('button');
+
+    kupljeni.classList.add("kupljeni");
+    naslov.innerHTML = film.naslov;
+    placeno.classList.add('placeno');
+    ukloni.classList.add("ukloni");
+    ukloni.innerHTML = "X";
+
+    kupljeni.appendChild(naslov);
+    kupljeni.appendChild(placeno);
+    kupljeni.appendChild(ukloni);
+
+    gledani.appendChild(kupljeni);
+}

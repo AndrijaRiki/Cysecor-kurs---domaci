@@ -1,0 +1,4 @@
+kada se obrise post iz baze se brisu svi komentari za taj post
+kada se postavi komentar sa leve strane pise username osobe koja je objavila taj komentar
+postoji mogucnost da se vidi ko je lajkovao koji post
+ne moze se isti post lajkovati vise puta
